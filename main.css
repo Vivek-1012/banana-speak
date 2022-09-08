@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+body {
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    background-image: url("https://wallpaperaccess.com/full/27835.jpg");
+}
+
+h1 {
+    padding: 2rem;
+    -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       background-color: white;
+}
+#txt-input {
+    background-color: white;
+}
+
+#output {
+    background-color: white;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+#btn-Translate {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+ background-color: darkorange;
+}
+
+#p {
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: black;
+
+}
